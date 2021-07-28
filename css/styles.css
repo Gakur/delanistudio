@@ -163,6 +163,9 @@ footer p{
   font-size: 20px;
   font-weight: 600;
 }
+#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
+  position: relative;
+}
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
   color: black;
@@ -176,7 +179,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -199,9 +202,6 @@ footer p{
     margin-left: 2%;
     padding-bottom: 30px;
     margin-bottom: 20px;
-    /* margin-left: 10px; */
-
-    /* margin-right: -20%; */
   }
 }
 @media only screen and (max-width: 425px){
